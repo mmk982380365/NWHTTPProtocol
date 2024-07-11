@@ -94,7 +94,7 @@ public final class HTTPServer {
    *
    * For more fine grained flow control, use `resume` and `suspend`.
    */
-  public func run() -> Never {
+  public func run() {
     resume()
     //dispatchMain()
   }
