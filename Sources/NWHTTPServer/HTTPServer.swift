@@ -96,7 +96,7 @@ public final class HTTPServer {
    */
   public func run() -> Never {
     resume()
-    dispatchMain()
+    //dispatchMain()
   }
   
   /**
